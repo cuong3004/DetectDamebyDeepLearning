@@ -25,10 +25,10 @@ labels_dir = {
 key_list = list(labels_dir.keys())
 val_list = list(labels_dir.values())
 
-path_img = glob("/content/tonthuongda/train/*/*")
+path_img = glob("tonthuongda/train/*/*")
 path_train, path_valid = train_test_split(path_img ,shuffle=True,test_size=0.1)
 
-path_test = glob("/content/tonthuongda/test/*/*")
+path_test = glob("tonthuongda/test/*/*")
 
 def generate_dataframe(path_file, name_df):
     name = [i.split("/")[-2] for i in path_file]
