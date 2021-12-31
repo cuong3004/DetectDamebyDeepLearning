@@ -1,4 +1,3 @@
-from model import EfficientNet
 from litmodel import LitClassification
 from dataloader import train_loader, valid_loader, test_loader, target_list
 import pytorch_lightning as pl

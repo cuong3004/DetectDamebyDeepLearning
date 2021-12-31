@@ -16,6 +16,7 @@ Xây dựng phần mềm android đê nhận diện tổn thuong da bằng học
 ![pyroch](https://img.shields.io/badge/pytorch-1.10.0-red)
 ![pytorchlightning](https://img.shields.io/badge/pytorchlightning-1.5.7-yellowgreen)
 ![opencv](https://img.shields.io/badge/opencv--python-4.5.5-green)
+![onnx](https://img.shields.io/badge/onnx-1.8.1-blue)
 
 <a><img src="img/demo.gif" title="made at imgflip.com"/></a>
 
@@ -57,6 +58,7 @@ Trong quá trình train hoặc khi train xong, bạn có thể xem những kết
 ```bash
 tensorboard --logdir "lightning_logs"
 ```
+<a><img src="img/demo2.gif" title="made at imgflip.com"/></a>
 Train xong, chúng ta sẽ export model ra các file để dó thể deloy trên android, mô trong các file phổ biến là tflite và torchscript. Ở đây chúng tôi export ra hai file `model.tflite` và `model.pt`
 ```bash
 python export.py
