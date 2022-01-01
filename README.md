@@ -76,6 +76,9 @@ python test.py
 
 Và đến đây, đây là lúc mà mọi thứ đã chuẩn bị gần như hoàn tất, chúng ta sẽ deloy mô hình của mình lên android sử dụng android studio, theo các bài tướng dẫn [Android quickstart](https://www.tensorflow.org/lite/guide/android)
 
-![Paper](img/image.png)
+![img](img/image.png)
+
+# Tổng kết
+Mặc dù chúng tôi đã triển khai được ứng dụng trên android, nhưng phần mềm chưa được chính sác lắm. Có thể lý do chủ yếu là do chất lượng hình ảnh trên camera khá là kém, và thứ hai là chất lượng dữ liệu chưa thực sự đủ độ khái quát. Trong tương lai, khi mà có nhiều dữ liệu hơn, có thể mô hình chúng tôi sẽ chính xác hơn, hoặc chúng tôi cũng có thể sử dụng các kĩ thuật biến đổi ảnh để mô hình có độ chính sác cao hơn trên android
 
 
